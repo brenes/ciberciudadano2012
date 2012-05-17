@@ -1,0 +1,14 @@
+Para generar el PDF yo uso la orden 'wkhtmltopdf' pero tengoque indicarle la orientación y tamaño, o lo hace mal:
+
+  > wkhtmltopdf transparencias/que-es-la-nube.pdf.html que-es-la-nube.pdf -s A4 -O landscape
+
+Además, cada vez que regenero las slides tengo que sobreescribir unos estilos del fichero transparencias/que-es-la-nube.pdf.html
+
+h1 { font-size: 40pt; text-align:center; }
+h2 { font-size: 28pt;  }
+h3 { font-size: 25pt;  }
+p, li, dt, dd, td, th { font-size: 25pt; }
+
+.slide { min-height: 210mm; }
+
+Debe haber mejor manera de hacerlo, pero dado que no quiero interferir con la maqueta HTML no se me ocurre...
