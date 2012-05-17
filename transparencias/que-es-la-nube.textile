@@ -1,0 +1,349 @@
+author: David J. Brenes
+company: Simplelógica
+title: La nube
+subtitle: Evolución social y tecnológica de la Web 2.0
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Styles
+
+%css
+
+#header, #controls, #footer, #currentSlide
+{
+  display:none;  
+}
+
+.slide
+{
+  height: 96%;
+}
+
+.slide:nth-child(2), .slide:nth-child(3), .slide:nth-child(13), .slide:nth-child(19), .slide:nth-child(22)
+{
+  background-image: url("imagenes/nube.jpg");
+  background-size: 100% 100%;
+}
+
+.slide ul
+{
+  list-style:none;
+}
+
+.slide ul:nth-child(2)
+{
+  float:left;
+  width: 350px;
+}
+
+
+.slide ul:nth-child(2) li
+{
+  float:left;
+  margin-left: 10px;
+  margin-top: 20px;
+  padding-top: 60px;
+  background-repeat: no-repeat;
+  background-position: top center;
+  text-align:center;
+  width:150px;
+}
+
+.slide ul:nth-child(3)
+{
+  float:right;
+  margin-right: 40px;
+  max-width: 500px;
+}
+
+.slide ul:nth-child(3) li
+{
+  margin-bottom: 15px;
+}
+
+.twitter
+{
+  background-image: url('imagenes/twitter-mini.png');
+}
+
+.facebook
+{
+  background-image: url('imagenes/facebook-mini.jpg');
+}
+
+.instagram
+{
+  background-image: url('imagenes/instagram.png');
+}
+
+.blogger
+{
+  background-image: url('imagenes/blogger.jpg');
+}
+
+.flickr
+{
+  background-image: url('imagenes/flickr.png');
+}
+
+.verkami
+{
+  background-image: url('imagenes/verkami.jpg');
+}
+
+.kickstarter
+{
+  background-image: url('imagenes/kickstarter.jpg');
+}
+
+.kiva
+{
+  background-image: url('imagenes/kiva.png');
+}
+
+.appstore
+{
+  background-image: url('imagenes/appstore.jpg');
+}
+
+.xbox
+{
+  background-image: url('imagenes/xbox.png');
+}
+
+.spotify
+{
+  background-image: url('imagenes/spotify.png');
+}
+
+.filmin
+{
+  background-image: url('imagenes/filmin.jpg');
+}
+
+%end
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Slides
+
+h1{margin-top:6em}. La nube: Evolución social y tecnológica de la Web
+
+p(lugar){text-align: center;font-size: 0.9em;font-style: italic;}. XI Congreso Ciberciudadano "Cloud Computing: las TIC se suben a la nube."
+
+p(autor){text-align: center;}. David J. Brenes ("@brenes":http://twitter.com/brenes) - "Simplelógica":http://simplelogica.net
+
+h1{text-align:right; margin-right: 3em; margin-top: 2.5em; color: #F60;}. ¿Qué es la nube?
+
+p{margin-top:200px; color:white}. Es un conjunto de tecnologías que conforman el espacio actual de Internet permitiendo...
+
+
+h1{text-align:right; margin-right: 3em; margin-top: 2.5em; color: #F60;}. ¿Para qué me sirve a mi la nube?
+
+h1. Comunicación
+
+*(twitter) "Twitter":http://twitter.com
+*(facebook) "Facebook":http://twitter.com
+*(instagram) "Instagram":http://instagram.com
+*(flickr) "Flickr":http://flickr.com
+*(blogger) "Blogger":http://blogger.com
+
+
+
+* Mantener contacto
+* Aportar información
+* Información multimedia
+* No es necesario vínculo social
+* Ubicuidad de la información
+* Aumento de oportunidades
+* Serendipia
+
+h1. Compromiso
+
+* "Actuable":http://actuable.es/
+* "Change.org":http://change.org
+*(verkami) "Verkami":http://verkami.com
+*(kickstarter) "Kickstarter":http://kickstarter.com
+*(kiva) "Kiva":http://www.kiva.org/
+
+
+
+* Facilidad de apoyo a causas
+* Muchos gestos pequeños ayudan a hacer uno grande
+* Financiación de proyectos alternativos
+* Crowdfunding
+* Otros modelos de solidaridad: microcréditos
+
+h1. Compartición de ficheros
+
+p. Servicios de almacenamiento privados/públicos
+
+p. Posibilidad de publicar los contenidos
+
+p. Mayores límites de tamaño
+
+p. Disponibilidad indefinida
+
+p. Problemas legales
+
+h1. Colaboración en proyectos
+
+* "Github":http://github.org/
+* "Google Docs":http://docs.google.com
+* "Mind42":http://www.mind42.com/
+* "Proto Share":http://www.protoshare.com/
+
+* Herramientas especializadas en trabajos en grupo
+* Permiten la deslocalización de los colaboradores
+* Permiten almacenar el trabajo intermedio
+* Favorecen la colaboración con desconocidos
+* Obras colaborativas (Software libre)
+
+h1. Exposición
+
+p. Es más fácil proyectar tu imagen a los demás
+
+p. El ruido es mayor y por ello la visibilidad no demasiada
+
+p. Aparece el concepto de viralidad
+
+p. La fama en ocasiones no viene por lo que se espera
+
+p. Los famosos offline tienen bastante repercusión online
+
+h1. Nuevas plataformas
+
+*(appstore) "App Store":http://store.apple.com/es
+*(xbox) "Xbox Live":http://www.xbox.com/es-ES/Live
+*(spotify) "Spotify":http://www.spotify.com/
+*(filmin) "Filmin":http://www.filmin.es/
+
+* Nuevos mercados digitales
+* Son los nuevos intermediarios
+* Permiten crear negocio con bajo riesgo
+* Corren con el coste de mantener el mercado
+* Te abren a una gran audiencia
+* Facilidad de consumo
+* Escasez forzada
+
+h1. Infraestructuras para empresa
+
+* "Google Apps":http://www.google.com/apps/intl/es/business/
+* "Amazon Web Services":http://aws.amazon.com/es/
+* "Dropbox":http://www.dropbox.com/
+* "Github":http://www.github.org/
+* "Heroku":http://www.heroku.com/
+
+* Infraestructuras potentes y flexibles
+* Permiten adoptar tecnologías sin personal especializado
+* Permiten adaptarse a las necesidades puntuales
+
+h1. Servicio más cercano al cliente/ciudadano
+
+p. Independencia de localización (terminales móviles)
+
+p. Trámites online (Borrador de la declaración, banca online)
+
+p. Sin necesidad de presencia física
+
+p. Los procesos offline se vuelcan a la nube (e-government)
+
+
+h1. Relaciones más transparentes
+
+p. El internauta puede establecer lazos de confianza con el servicio
+
+p. El servicio comparte parte de su información para abrirse
+
+p. Transparencia y compartición de datos como prueba de buena fé
+
+p. Surgen colaboraciones no esperadas que repercuten en el internauta (Desafío Abredatos)
+
+
+h1{text-align:right; margin-right: 3em; margin-top: 2.5em; color: #F60;}. ¿Donde están los inconvenientes?
+
+
+h1. Privacidad
+
+p. ¿A quién pertenece la información? (Caso Google Drive)
+
+p. ¿En qué momento Internet sabe demasiado de mi?
+
+p. ¿Tenemos derecho a que Internet nos olvide?
+
+
+h1. Vigilancia
+
+p. En toda interacción en Internet dejamos nuestras huellas
+
+p. Las huellas pueden aportar información vital para los servicios
+
+p. La Web se adapta a nosotros (aprende con nosotros, nos recomienda)
+
+p. El problema de la publicidad
+
+p. ¿Cuanta personalización es adecuada?
+
+
+h1. Centralización de la Web
+
+p. Se generan nuevos colosos (Google, Facebook)
+
+p. Las empresas comienzan a depender de sus nuevos mercados (normalmente otras empresas individuales)
+
+p. Unas pocas empresas comienzan a estar presentes en toda nuestra experiencia online
+
+p. ¿Y si cae el gigante?
+
+
+h1. Falsabilidad
+
+p. En Internet hay que dudar
+
+p. Es un medio sincero porque asume que hay mentiras
+
+p. Las bromas pueden crecer fuera de control
+
+p. Las técnicas de verificación pueden resultar insuficientes en ocasiones
+
+
+h1. La nueva burbuja
+
+p. En épocas de optimismo se pueden generar expectativas irreales
+
+p. En los 2000, la primera burbuja ¿Volveremos a caer?
+
+p. Es un medio más maduro
+
+p. Dispone de más herramientas de vigilancia que otros medios
+
+p. No confíes en expertos
+
+
+h1{text-align:right; margin-right: 3em; margin-top: 2.5em; color: #F60;}. ¿Y que supone la Nube para Asturias? ¿Y Asturias para la Nube?
+
+
+h1. Una nueva industria
+
+p. De inicio no muy caro 
+
+p. Posibilidades de crecimiento grandes
+
+p. Muy independiente de la región
+
+
+h1. Una nueva comunicación
+
+p. Recuperación de confianza ciudadana
+
+p. Vía de feedback para el ciudadano
+
+p. Herramientas para recabar información
+
+p. Via de transparencia
+
+h1{text-align:right; margin-right: 3em; margin-top: 2.5em; color: #F60;}. ¿Qué es la nube?
+
+p{margin-top:200px; color:white}. ...una comunicación entre las personas, empresas y administraciones totalmente distinta a lo alcanzado nunca hasta ahora.
+
+h1{margin-top:6em}. Muchas Gracias, Muchas Preguntas
+
+p(lugar){text-align: center;font-size: 0.9em;font-style: italic;}. XI Congreso Ciberciudadano "Cloud Computing: las TIC se suben a la nube."
+
+p(autor){text-align: center;}. David J. Brenes ("@brenes":http://twitter.com/brenes) - "Simplelógica":http://simplelogica.net
