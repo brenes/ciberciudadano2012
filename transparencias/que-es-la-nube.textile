@@ -318,6 +318,7 @@ p. ¿En qué momento Internet sabe demasiado de mi?
 
 p. ¿Tenemos derecho a que Internet nos olvide?
 
+p. ¿Y la cobertura legal? ¿Puede otro gobierno confiscar nuestra información?
 
 h1. Vigilancia
 
