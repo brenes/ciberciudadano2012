@@ -99,6 +99,12 @@ p.tiny     { font-size: 82%; }
   height: 96%;
 }
 
+.slide p
+{
+  text-align:center;
+}
+
+
 .slide:nth-child(2), .slide:nth-child(3), .slide:nth-child(13), .slide:nth-child(19), .slide:nth-child(22)
 {
   background-image: url("imagenes/nube.jpg");
@@ -166,6 +172,16 @@ p.tiny     { font-size: 82%; }
   background-image: url('imagenes/flickr.png');
 }
 
+.actuable
+{
+  background-image: url('imagenes/actuable.jpg');
+}
+
+.change
+{
+  background-image: url('imagenes/change.jpg');
+}
+
 .verkami
 {
   background-image: url('imagenes/verkami.jpg');
@@ -179,6 +195,11 @@ p.tiny     { font-size: 82%; }
 .kiva
 {
   background-image: url('imagenes/kiva.png');
+}
+
+.mind42
+{
+  background-image: url('imagenes/mind42.png');
 }
 
 .appstore
@@ -199,5 +220,35 @@ p.tiny     { font-size: 82%; }
 .filmin
 {
   background-image: url('imagenes/filmin.jpg');
+}
+
+.github
+{
+  background-image: url('imagenes/github.png');
+}
+
+.heroku
+{
+  background-image: url('imagenes/heroku.jpg');
+}
+
+.dropbox
+{
+  background-image: url('imagenes/dropbox.jpg');
+}
+
+.google
+{
+  background-image: url('imagenes/google.jpg');
+}
+
+.protoshare
+{
+  background-image: url('imagenes/protoshare.png');
+}
+
+.aws
+{
+  background-image: url('imagenes/aws.png');
 }
 

@@ -17,6 +17,12 @@ subtitle: Evolución social y tecnológica de la Web 2.0
   height: 96%;
 }
 
+.slide p
+{
+  text-align:center;
+}
+
+
 .slide:nth-child(2), .slide:nth-child(3), .slide:nth-child(13), .slide:nth-child(19), .slide:nth-child(22)
 {
   background-image: url("imagenes/nube.jpg");
@@ -84,6 +90,16 @@ subtitle: Evolución social y tecnológica de la Web 2.0
   background-image: url('imagenes/flickr.png');
 }
 
+.actuable
+{
+  background-image: url('imagenes/actuable.jpg');
+}
+
+.change
+{
+  background-image: url('imagenes/change.jpg');
+}
+
 .verkami
 {
   background-image: url('imagenes/verkami.jpg');
@@ -97,6 +113,11 @@ subtitle: Evolución social y tecnológica de la Web 2.0
 .kiva
 {
   background-image: url('imagenes/kiva.png');
+}
+
+.mind42
+{
+  background-image: url('imagenes/mind42.png');
 }
 
 .appstore
@@ -117,6 +138,36 @@ subtitle: Evolución social y tecnológica de la Web 2.0
 .filmin
 {
   background-image: url('imagenes/filmin.jpg');
+}
+
+.github
+{
+  background-image: url('imagenes/github.png');
+}
+
+.heroku
+{
+  background-image: url('imagenes/heroku.jpg');
+}
+
+.dropbox
+{
+  background-image: url('imagenes/dropbox.jpg');
+}
+
+.google
+{
+  background-image: url('imagenes/google.jpg');
+}
+
+.protoshare
+{
+  background-image: url('imagenes/protoshare.png');
+}
+
+.aws
+{
+  background-image: url('imagenes/aws.png');
 }
 
 %end
@@ -156,8 +207,8 @@ h1. Comunicación
 
 h1. Compromiso
 
-* "Actuable":http://actuable.es/
-* "Change.org":http://change.org
+*(actuable) "Actuable":http://actuable.es/
+*(change) "Change.org":http://change.org
 *(verkami) "Verkami":http://verkami.com
 *(kickstarter) "Kickstarter":http://kickstarter.com
 *(kiva) "Kiva":http://www.kiva.org/
@@ -184,10 +235,10 @@ p. Problemas legales
 
 h1. Colaboración en proyectos
 
-* "Github":http://github.org/
-* "Google Docs":http://docs.google.com
-* "Mind42":http://www.mind42.com/
-* "Proto Share":http://www.protoshare.com/
+*(github) "Github":http://github.org/
+*(google) "Google Docs":http://docs.google.com
+*(mind42) "Mind42":http://www.mind42.com/
+*(protoshare) "Proto Share":http://www.protoshare.com/
 
 * Herramientas especializadas en trabajos en grupo
 * Permiten la deslocalización de los colaboradores
@@ -224,11 +275,11 @@ h1. Nuevas plataformas
 
 h1. Infraestructuras para empresa
 
-* "Google Apps":http://www.google.com/apps/intl/es/business/
-* "Amazon Web Services":http://aws.amazon.com/es/
-* "Dropbox":http://www.dropbox.com/
-* "Github":http://www.github.org/
-* "Heroku":http://www.heroku.com/
+*(google) "Google Apps":http://www.google.com/apps/intl/es/business/
+*(aws) "Amazon Web Services":http://aws.amazon.com/es/
+*(dropbox) "Dropbox":http://www.dropbox.com/
+*(github) "Github":http://www.github.org/
+*(heroku) "Heroku":http://www.heroku.com/
 
 * Infraestructuras potentes y flexibles
 * Permiten adoptar tecnologías sin personal especializado
