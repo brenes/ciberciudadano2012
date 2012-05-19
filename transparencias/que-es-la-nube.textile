@@ -235,7 +235,7 @@ p. Problemas legales
 
 h1. Colaboración en proyectos
 
-*(github) "Github":http://github.org/
+*(github) "Github":http://github.com/
 *(google) "Google Docs":http://docs.google.com
 *(mind42) "Mind42":http://www.mind42.com/
 *(protoshare) "Proto Share":http://www.protoshare.com/
@@ -278,7 +278,7 @@ h1. Infraestructuras para empresa
 *(google) "Google Apps":http://www.google.com/apps/intl/es/business/
 *(aws) "Amazon Web Services":http://aws.amazon.com/es/
 *(dropbox) "Dropbox":http://www.dropbox.com/
-*(github) "Github":http://www.github.org/
+*(github) "Github":http://www.github.com/
 *(heroku) "Heroku":http://www.heroku.com/
 
 * Infraestructuras potentes y flexibles
